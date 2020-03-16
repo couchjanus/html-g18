@@ -1,0 +1,63 @@
+/* carousel */
+.carousel {
+    padding: 6em 0;
+}
+
+.carousel .container {
+    color: #fff;
+    text-align: center;
+    background-attachment: fixed;
+	background-color: #656d65;
+}
+
+.carousel .container .inner {
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    padding: 3em;
+    background: rgba(52, 77, 43, 0.5);
+}
+
+.carousel .container .inner header {
+    display: inline-block;
+    padding: 3px 0 3px 0;
+    margin: 0 0 2em 0;
+    border-bottom: solid 2px;
+	border-top: solid 2px;
+}
+
+.carousel .container .inner header h2 {
+    font-size: 2.5em;
+    font-weight: 900;
+    letter-spacing: 0.2em;
+    padding-left: 0.05em;
+    margin: 0;
+    border-bottom: solid 2px;
+    border-top: solid 2px;
+}
+
+.carousel .container .inner p {
+    letter-spacing: 0.1em;
+    margin: 0 7em;
+}
+
+.carousel .container .inner p a {
+    color: inherit;
+    font-weight: 400;
+    text-decoration: none;
+}
+.carousel .container .inner footer {
+    margin: 2em 0 0 0;
+}
+
+.carousel .btn-special {
+    background: rgba(255, 255, 255, 0.5);;
+    border: double 2px #fff;
+    font-weight: 900;
+    color: #fff;
+}
+
+.carousel .btn-special:hover {
+    background: #96dad1 !important;
+    border-color: #058d7bcb !important;
+}

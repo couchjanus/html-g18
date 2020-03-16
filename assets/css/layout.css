@@ -1,0 +1,22 @@
+/* layout */
+
+body {
+    margin: 0;
+}
+body {
+    min-width: 992px !important;
+}
+
+.container {
+    min-width: 992px !important;
+}
+
+.container {
+    width: 100%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+
+.row {
+    width: 100%;
+}
