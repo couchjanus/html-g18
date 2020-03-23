@@ -30,7 +30,6 @@
             display: flex;
             justify-content: space-between;
             padding: 1rem 2rem;
-            position: relative;
         }
 
         .navbar-brand {
@@ -103,19 +102,11 @@
                 flex-direction: column;
                 align-items: start;
                 display: none;
-                position: unset;
             }
             
             .navbar-nav a{
-                padding: 0 0.5em;
-                margin: 0.2em;
-            }
-            
-            .form-inline {
-                order: 3;
-            }
-            .navbar-brand {
-                order: 2;
+                padding: 0.1em;
+                margin: 0em;
             }
         }
 
@@ -125,58 +116,10 @@
             }
 
             .form-inline, .navbar-brand {
-                display: inline-block;
+                display: block;
                 padding: 0.1em;
             }
-
-            .navbar input[type="checkbox"]:checked~.navbar-nav {
-                display: flex;
-                position: unset;
-            }
         }
-
-
-        /* toggle */
-
-        .navbar label {
-            display: none;
-        }
-
-        .navbar input[type="checkbox"] + label {
-            color: #fff;
-        } 
-            
-        .navbar input[type="checkbox"]:checked + label {
-            color: #fed136;
-            font-style: normal;
-        } 
-            
-        .navbar input[type="checkbox"] {
-            display: none;
-        }
-
-        /* Tablet menu */
-        @media all and (max-width: 900px) {
-            .navbar label {
-                display: inline-block;
-                order: 1;
-            }
-
-            .navbar-nav {
-                position: absolute;
-                top:3em;
-                left: 0%;
-                background: #15025af1;
-            }
-
-            .navbar input[type="checkbox"]:checked~.navbar-nav {
-                display: flex;
-                width:100%;
-            }
-        
-        } 
-   
-
     </style>
 </head>
 
