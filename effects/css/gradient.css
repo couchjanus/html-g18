@@ -1,0 +1,27 @@
+/* gradient */
+.pixels {
+    background: linear-gradient(to right, yellowgreen 1%, rgb(100, 240, 1) 10%, rgba(50, 200, 10, 0.9) 15%, rgba(5, 155, 85, 0.8) 20%, rgba(2, 90, 10, 0.7) 25%, #025a1ff1 30%);
+}
+
+
+.percentr {
+    background: linear-gradient(to right, rgba(0, 64, 9, 0.89) 2em, #025a1ff1 3em, rgb(6, 162, 79) 7em, rgba(60, 200, 70, 0.89) 12em);
+}
+
+.percentl {
+    background: linear-gradient(to left, rgba(0, 64, 9, 0.89) 2em, #025a1ff1 3em, rgb(6, 162, 79) 7em, rgba(60, 200, 70, 0.89) 12em);
+}
+.negative {
+   background: linear-gradient(to right, rgb(167, 235, 135) -50%, #025a1ff1 150%);
+}
+
+.gold {
+    background: linear-gradient(orangered, gold);
+}
+
+.lg-gold {
+    background: linear-gradient(to top left, rgb(0, 66, 128), #025a1ff1, rgb(0, 255, 149), gold);
+    background-size: cover;
+    color: #fff;
+    font-size: 1.2em;
+}
