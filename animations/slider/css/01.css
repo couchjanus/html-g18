@@ -1,0 +1,24 @@
+.slider ul {
+    margin: 0;
+    padding: 0;
+    position: relative;
+    text-align: center;
+}
+
+.slider li {
+    width: 95%;
+    margin: 0 auto;
+    height: 400px;
+    list-style: none;
+}
+
+.slider .quote {
+    font-size: 20px;
+    font-style: italic;
+    padding-top: 2rem;
+}
+
+.slider .source {
+    font-size: 20px;
+    text-align: right;
+}

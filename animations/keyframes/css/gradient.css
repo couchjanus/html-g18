@@ -1,0 +1,34 @@
+/* Info */
+.info {
+    color: aliceblue;
+    background-image: var(--gradient);
+    background-size: 300%;
+    animation: bg-animation 25s infinite;
+}
+
+@keyframes bg-animation {
+    0% {
+      background-position: left;
+    }
+    50% {
+      background-position: right;
+    }
+    100% {
+      background-position: left;
+    }
+}
+
+.read-more {
+  color: white;
+  border: 0;
+  cursor: pointer;
+  padding: .5em 1.25em;
+  background: var(--gradient);
+  background-size: 300%;
+  background-position: left;
+  transition: background-position 350ms;
+}
+
+.read-more:hover {
+  background-position: right;
+}

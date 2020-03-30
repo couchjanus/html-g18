@@ -1,0 +1,16 @@
+/* carousel 01 */
+
+.carousel {
+    margin: 0 auto;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    padding: 0;
+    list-style: none
+}
+
+.carousel__slide {
+    height: 100%;
+    overflow: hidden;
+    opacity: 1;
+}

@@ -1,0 +1,51 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800';
+@import url("../../assets/fontawesome/css/all.min.css");
+
+/* common */
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    font-size: 16px;
+    font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+    --p-15: calc((15/16)*1em);
+    --p-10: calc((10/16)*1em);
+    --p-5: calc((5/16)*1em);
+    --px20: calc((20/16)*1em);
+    --px15: calc((15/16)*1em);
+    --px30: calc((30/16)*1em);
+    --px50: calc((50/16)*1em);
+    --gradient: linear-gradient(90deg, rgb(87, 12, 247), indigo 50%, rgb(167, 135, 235));
+}
+
+body {
+    font-size: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+.grid-container {
+    display: grid;
+    grid-gap: var(--px20);
+    margin: 0 var(--px50);
+    padding-top: 5em;
+}
+
+/* Info */
+.info {
+    box-shadow: rgba(104, 104, 104, 0.8);
+    display: grid;
+    grid-gap: var(--px30);
+    padding: 3rem;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.info p {
+    padding: var(--p-10) 0;
+}
